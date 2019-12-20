@@ -15,7 +15,7 @@ public void opcion(){
    do{
     System.out.println("1. REGISTRAR COTIZACION DOLAR.");
     System.out.println("2. CONVERTIR DOLARES A PESOS.");
-    System.out.println("3. CONVERIT PESOS A DOLARES.");
+    System.out.println("3. CONVERTIR PESOS A DOLARES.");
     System.out.println("4. SALIR.");
     Scanner op = new Scanner(System.in);
     aux = op.nextInt();    
