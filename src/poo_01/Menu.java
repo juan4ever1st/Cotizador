@@ -35,7 +35,7 @@ public void opcion(){
        case 3:
             Operaciones opera2 = new Operaciones();
             opera2.convertirPesos(cargaCot.dolar, opera2.cant);
-            System.out.println("CONVERTIR DE DOLARES A PESOS:");
+            System.out.println("CONVERTIR DE PESOS A DOLARES:");
             System.out.println("COTIZACION REGISTRADA: "+cargaCot.getDolar());
             System.out.println("EL EQUIVALENTE EN PESOS ES: "+ opera2.conversionAdolar);
             break;
